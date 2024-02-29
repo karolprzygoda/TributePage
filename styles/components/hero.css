@@ -1,0 +1,125 @@
+ /* Mobile */
+ {
+  margin-top: 12rem;
+}
+
+#hero__title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: "Marcellus", serif;
+  color: var(--clr-orange);
+  font-weight: bold;
+  font-size: var(--size-4xl);
+}
+
+#hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero__img-wrapper {
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero__img-description {
+  font-style: italic;
+  color: var(--clr-grey);
+  font-size: var(--size-xs);
+  text-align: left;
+}
+
+.hero__description {
+  margin: 0 auto 1rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-size: var(--size-s);
+}
+
+/* mobile M */
+@media (min-width: 375px) {
+  #hero__title {
+    font-size: var(--size-5xl);
+  }
+}
+
+/* mobile L */
+@media (min-width: 425px) {
+  #hero__title {
+    font-size: var(--size-6xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-base);
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  #hero__title {
+    font-size: var(--size-9xl);
+  }
+
+  .hero-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    justify-content: center;
+  }
+
+  .hero__description {
+    font-size: var(--size-s);
+  }
+
+  .hero__description-wrapper {
+    max-width: 50%;
+    padding: 5% 0;
+  }
+}
+/* Laptop */
+@media (min-width: 1024px) {
+  #hero__title {
+    font-size: var(--size-10xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-base);
+  }
+
+  .hero__description-wrapper {
+    max-width: 50%;
+  }
+
+  #hero__img-description {
+    font-size: var(--size-s);
+  }
+}
+
+/*  Desktop */
+@media (min-width: 1280px) {
+  #hero__title {
+    font-size: var(--size-11xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-xl);
+  }
+}
+
+/*  4k */
+@media (min-width: 2560px) {
+  #hero__title {
+    font-size: var(--size-12xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-2xl);
+  }
+
+  #hero__img-description {
+    font-size: var(--size-xl);
+  }
+}

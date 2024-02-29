@@ -1,0 +1,41 @@
+/* Mobile */
+#more {
+  background-color: var(--clr-black);
+  padding: 2rem;
+}
+
+#more p {
+  text-align: center;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  #more p {
+    font-size: var(--size-xl);
+  }
+}
+
+/*Laptop*/
+@media (min-width: 1024px) {
+  #more a {
+    text-decoration: none;
+  }
+
+  #more a:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+  #more p {
+    font-size: var(--size-xl);
+  }
+}
+
+/* 4k */
+@media (min-width: 2560px) {
+  #more p {
+    font-size: var(--size-4xl);
+  }
+}

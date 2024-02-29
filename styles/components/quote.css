@@ -1,0 +1,39 @@
+/* Mobile */
+#quote p {
+  font-style: italic;
+  padding: 2rem 1.2rem 2rem 1.2rem;
+  text-align: center;
+  color: var(--clr-orange);
+  border-top: 1px solid var(--clr-grey);
+  border-bottom: 1px solid var(--clr-grey);
+  font-family: "Marcellus", serif;
+  font-size: var(--size-base);
+}
+
+/* Mobile L*/
+@media (min-width: 425px) {
+  #quote p {
+    font-size: var(--size-xl);
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  #quote p {
+    font-size: var(--size-2xl);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+  #quote p {
+    font-size: var(--size-3xl);
+  }
+}
+
+/* 4k */
+@media (min-width: 2560px) {
+  #quote p {
+    font-size: var(--size-5xl);
+  }
+}
